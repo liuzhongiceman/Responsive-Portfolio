@@ -1,0 +1,1276 @@
+@media only screen 
+	and (min-width: 980px)
+	{
+body {
+	background-image: url("../images/pattern.png");
+	margin:0;
+	padding:0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*header*/
+	
+#header {
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 1px solid #cccccc;
+	margin-top: 80px;
+}
+
+#myname {
+	width: 170px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 33px;
+	text-align: center;
+	margin-left: 240px;
+	font-size: 30px;
+	}
+
+#nav {
+	width: 600px;
+	position: relative;
+	top: -85px;
+	left: 900px;
+
+}
+
+li {
+	display: inline-block;
+	padding: 4px;
+	color: grey;
+}
+/*header*/
+/*footer*/
+#footer {
+	height: 100px;
+	background-color: #666666;
+	bottom: 0px;
+	margin-top: 20px;
+}
+
+#copyright {
+	color: #777777;
+	margin-left: 550px;
+	padding: 45px;
+	position: relative;
+	top:-30px;
+}
+
+#blank {
+	height: 10px;
+	background-color: #4aaaa5;
+}
+/*footer*/
+/*general content 960px*/
+#content {
+	width: 960px;
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+/*general content 960px*/
+
+/*general connect*/
+#connect {
+	width: 270px;
+	background-color: white;
+	height: 200px;
+	position: absolute;
+	top: 222px;
+	left: 920px;
+	border: 1px solid #dddddd;
+}
+
+#connectwithme {
+	position: relative;
+	color: #4aaaa5;
+	font-size: 25px;
+	position: relative;
+	left: 35px;
+}
+
+#horzRule2 {
+	width: 180px;
+	height: 1px;
+	position: relative;
+	left: 40px;
+	right: 20px;
+	margin-bottom: 20px;
+	background-color: #cccccc;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+	width: 50px;
+	height: 50px;
+	float:left;
+	padding: 3px;
+}
+
+.pic1 {
+	margin-left: 42px;
+}
+
+.clear {
+	clear: both;
+}
+/*general connect*/
+
+/*AboutME*/
+#AboutMe {
+	width: 650px;
+	height: 500px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+.horzRule {
+	width: 600px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 20px;
+	top: -20px;
+}
+
+#me {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+
+
+}
+
+.article {
+
+	margin-top: -30px;
+	font-size: 20px;
+	color: grey;
+	line-height: 36px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+/*AboutME*/
+/*Contact*/
+
+#Contact {
+	width: 650px;
+	height: 550px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+.horzRule {
+	width: 600px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 20px;
+	top: -20px;
+}
+
+.Name,
+.Email,
+.Message {
+	font-size: 18px;
+	color: grey;
+	position: relative;
+	left: 20px;
+	margin-top: 3px;
+}
+
+input {
+	width: 600px;
+	height: 25px;
+	border:1px solid #cccccc;
+	margin-left: 20px;
+	position: relative;
+	top: -12px;
+}
+
+::-webkit-input-placeholder {
+	color: lightgrey;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+input[type="text"] {
+	height: 150px;
+}
+
+input[type="submit"] {
+	background-color: #4aaaa5;
+	width: 80px;
+	color: white;
+	height: 35px;
+	font-size: 14px;
+}
+/* Contact*/
+
+/*  Portfolio*/
+#Portfolio {
+	width: 650px;
+	height: 930px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+
+.horzRule3 {
+	width: 600px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 23px;
+	top: -20px;
+}
+
+.education,
+.computer,
+.experience,
+.personality,
+.projects {
+	width: 290px;
+	height: 240px;
+	position: relative;
+	left: 23px;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.personality {
+	position: relative;
+	left: 44px;
+}
+
+.computer {
+	position: relative;
+	left: 45px;
+}
+
+.Education {
+	width: 270px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 505px;
+}
+
+.Computer {
+	width: 270px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 335px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 505px;
+}
+
+.Experience {
+	width: 270px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 785px;
+}
+
+.Personality {
+	width: 270px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 335px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 785px;
+}
+
+.Projects {
+	width: 270px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 24px;
+	position: absolute;
+	top: 1069px;
+}
+}
+
+@media only screen 
+	and (min-width: 0px)
+	and (max-width: 640px)
+	{
+		/*general 640px*/
+body{
+	background-image: url("../images/pattern.png");
+	padding: 0;
+	margin:0;
+}
+#container {
+	width: 640px;
+}	
+#header {
+	position: relative;
+	top: -25px;
+	width: 100%;
+	height: 151px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#footer {
+	height: 100px;
+	background-color: #666666;
+	bottom: 0px;
+	margin-top: 20px;
+}
+#myname {
+	color: white;
+	text-align: center;
+	margin-left: 8px;
+	font-size: 25px;
+	padding: 0px;
+	position: relative;
+	top: 30px;
+	}
+.Name,
+.Email,
+.Message {
+	font-size: 18px;
+	color: grey;
+	position: relative;
+	left: 20px;
+	margin-top: 3px;
+}
+::-webkit-input-placeholder {
+	color: lightgrey;
+	padding-left: 10px;
+	font-size: 14px;
+}
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 10px;
+}
+#nav {
+	position: relative;
+	top: 35px;
+	width: 640px;
+	height: 63px;
+	background-color: white;
+}
+li {
+	margin-left: 38px;
+	display: inline-block;
+	padding: 15px;
+	color: grey;
+	margin-top: 8px;
+}
+#copyright {
+	color: white;
+	margin-left: 240px;
+	padding: 1px;
+	position: relative;
+	margin-top: 30px;
+}
+#blank {
+	height: 8px;
+	background-color: #4aaaa5;
+}
+.horzRule {
+	width: 552px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 20px;
+	top: -20px;
+}
+#content {
+	width: 600px;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#Contact {
+	position: relative;
+	top: -15px;
+	width: 600px;
+	height: 510px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+#connect {
+	width: 600px;
+	background-color: white;
+	height: 200px;
+}
+#horzRule2 {
+	width: 552px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 20px;
+	margin-top: 35px;	
+}
+input {
+	width: 550px;
+	height: 25px;
+	border:1px solid #cccccc;
+	margin-left: 20px;
+	position: relative;
+	top: -12px;
+}
+#connectwithme {
+	position: relative;
+	color: #4aaaa5;
+	font-size: 25px;
+	left: 35px;
+	top: 20px;
+}
+input[type="text"] {
+	height: 150px;
+}
+input[type="submit"] {
+	background-color: #4aaaa5;
+	width: 80px;
+	color: white;
+	height: 35px;
+	font-size: 14px;
+}
+.pic1,
+.pic2,
+.pic3 {
+	width: 50px;
+	height: 50px;
+	float:left;
+	padding: 3px;
+	margin-top: 20px;
+}
+.pic1 {
+	margin-left: 22px;
+}
+.clear {
+	clear: both;
+} 
+/*end of 640px contact*/
+/*begin of 640px index*/
+#AboutMe {
+	width: 600px;
+	height: 910px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+.article {
+	margin-top: 60px;
+	font-size: 14px;
+	color: grey;
+	line-height: 36px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#me {
+	width: 552px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 6px;
+}
+/*end of 640px index*/
+/*begin of 640px portfolio*/
+#Portfolio {
+	width: 600px;
+	height: 3050px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+
+.horzRule3 {
+	width: 552px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 23px;
+	top: -20px;
+}
+
+#horzRule2 {
+	width: 552px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 20px;
+	margin-top: 35px;
+	
+}
+
+.education,
+.computer,
+.experience,
+.personality,
+.projects {
+	width: 552px;
+	height: auto;
+	position: relative;
+	left: 23px;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.personality {
+	position: relative;
+	left: 44px;
+}
+
+.computer {
+	position: relative;
+	left: 23px;
+}
+
+.Education {
+	width: 532px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 765px;
+}
+
+.Computer {
+	width: 532px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 1335px;
+}
+
+.Experience {
+	width: 532px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 1930px;
+}
+
+.Personality {
+	width: 532px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 20px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 2525px;
+}
+
+.Projects {
+	width: 532px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 24px;
+	position: absolute;
+	top: 3070px;
+}
+}
+@media only screen 
+	and (min-width:640px) 
+	and (max-width:768px) {
+body{
+	background-image: url("../images/pattern.png");
+	padding: 0;
+	margin:0;
+}
+#container {
+	width: 768px;
+}	
+#header {
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 1px solid #cccccc;
+	position: relative;
+	top: -30px;
+}
+#myname {
+	width: 170px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 33px;
+	text-align: center;
+	margin-left: 20px;
+	font-size: 30px;
+	}
+#nav {
+	width: 600px;
+	position: relative;
+	top: -85px;
+	left: 475px;
+}
+li {
+	display: inline-block;
+	padding: 4px;
+	color: grey;
+}
+#connect {
+	width: 715px;
+	background-color: white;
+	height: 200px;
+	position: relative;
+	left: -60px;
+	margin-bottom: 40px;
+}
+
+#horzRule2 {
+	width: 656px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.horzRule3 {
+	width: 656px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 23px;
+	top: -20px;
+}
+input {
+	width: 671px;
+	height: 30px;
+	border:1px solid #cccccc;
+	margin-left: 20px;
+	position: relative;
+	top: -12px;
+}
+
+#connectwithme {
+	position: relative;
+	color: #4aaaa5;
+	font-size: 25px;
+	left: 35px;
+	top: 20px;
+}
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 10px;
+}
+#copyright {
+	color: white;
+	margin-left: 240px;
+	padding: 1px;
+	position: relative;
+	margin-top: 30px;
+}
+#blank {
+	height: 8px;
+	background-color: #4aaaa5;
+}
+.horzRule {
+	width: 671px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 20px;
+	top: -20px;
+}
+#content {
+	width: 600px;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#footer {
+	height: 100px;
+	background-color: #666666;
+	bottom: 0px;
+	margin-top: 20px;
+}
+.pic1,
+.pic2,
+.pic3 {
+	width: 50px;
+	height: 50px;
+	float:left;
+	padding: 3px;
+	margin-top: 20px;
+}
+
+.pic1 {
+	margin-left: 22px;
+}
+
+.clear {
+	clear: both;
+} 
+/*begin of contact*/
+#Contact {
+	position: relative;
+	top: -15px;
+	width: 715px;
+	height: 605px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	left: -60px;
+}
+input[type="text"] {
+	height: 230px;
+}
+input[type="submit"] {
+	background-color: #4aaaa5;
+	width: 80px;
+	color: white;
+	height: 35px;
+	font-size: 14px;
+}
+.Name,
+.Email,
+.Message {
+	font-size: 18px;
+	color: grey;
+	position: relative;
+	left: 20px;
+	margin-top: 3px;
+}
+::-webkit-input-placeholder {
+	color: lightgrey;
+	padding-left: 10px;
+	font-size: 14px;
+}
+/*begin of index*/
+#AboutMe {
+	width: 715px;
+	height: 450px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	position: relative;
+	left: -60px;
+}
+.article {
+	margin-top: -25px;
+	font-size: 14px;
+	color: grey;
+	line-height: 36px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#me {
+	width: 330px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+/*begin of portfolio*/
+#Portfolio {
+	width: 715px;
+	height: 950px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	position: relative;
+	left: -55px;
+}
+.education,
+.computer,
+.experience,
+.personality,
+.projects {
+	width: 315px;
+	height: 240px;
+	position: relative;
+	left: 24px;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.personality {
+	position: relative;
+	left: 48px;
+}
+.computer {
+	position: relative;
+	left: 48px;
+}
+.Education {
+	width: 295px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 24px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 270px;
+}
+.Computer {
+	width: 295px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 363px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 270px;
+}
+.Experience {
+	width: 295px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 550px;
+}
+.Personality {
+	width: 295px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 363px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 550px;
+}
+.Projects {
+	width: 295px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 24px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 24px;
+	position: absolute;
+	top: 816px;
+}
+	}
+@media only screen 
+	and (min-width: 768px)
+	and (max-width: 980px) {
+body{
+	background-image: url("../images/pattern.png");
+	padding: 0;
+	margin:0;
+}
+#container {
+	width: 980px;
+}	
+#header {
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 1px solid #cccccc;
+	position: relative;
+	top: -30px;
+}
+#footer {
+	height: 100px;
+	background-color: #666666;
+	bottom: 0px;
+	margin-top: 60px;
+	position: relative;
+	clear: both;
+}
+#myname {
+	width: 170px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 33px;
+	text-align: center;
+	margin-left: 159px;
+	font-size: 30px;
+	}
+#nav {
+	width: 600px;
+	position: relative;
+	top: -85px;
+	left: 600px;
+}
+li {
+	display: inline-block;
+	padding: 4px;
+	color: grey;
+}
+.Name,
+.Email,
+.Message {
+	font-size: 18px;
+	color: grey;
+	position: relative;
+	left: 20px;
+	margin-top: 3px;
+}
+::-webkit-input-placeholder {
+	color: lightgrey;
+	padding-left: 10px;
+	font-size: 14px;
+}
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 10px;
+}	
+#copyright {
+	color: white;
+	padding: 1px;
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	left: -340px;
+}
+#blank {
+	height: 8px;
+	background-color: #4aaaa5;
+}
+.horzRule {
+	width: 358px;
+	height: 2px;
+	background-color: #cccccc;
+	position: relative;
+	left: 20px;
+	top: -20px;
+}
+#content {
+	width: 730px;
+	position: relative;
+	left: 156px;
+	margin-top: 10px;
+}
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 6px;
+}
+#connect {
+	float: left;
+	width: 267px;
+	background-color: white;
+	height: 200px;
+	margin-left: 40px;
+	}
+#connectwithme {
+	position: relative;
+	color: #4aaaa5;
+	font-size: 25px;
+	left: 35px;
+	top: 20px;
+}
+#horzRule2 {
+	width: 210px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 20px;
+	margin-top: 35px;	
+}
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 6px;
+}
+#connect {
+	float: left;
+	width: 267px;
+	background-color: white;
+	height: 200px;
+	margin-left: 40px;
+	}
+#horzRule2 {
+	width: 210px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+#connect {
+	float: left;
+	width: 267px;
+	background-color: white;
+	height: 200px;
+	margin-left: 40px;
+	}
+#horzRule2 {
+	width: 210px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 20px;
+	margin-top: 35px;	
+}
+input[type="text"] {
+	height: 230px;
+}
+input[type="submit"] {
+	background-color: #4aaaa5;
+	width: 80px;
+	color: white;
+	height: 35px;
+	font-size: 14px;
+}
+.pic1,
+.pic2,
+.pic3 {
+	width: 50px;
+	height: 50px;
+	float:left;
+	padding: 3px;
+	margin-top: 20px;
+}
+.pic1 {
+	margin-left: 22px;
+}
+.clear {
+	clear: both;
+} 
+
+/*begin of contact*/
+#Contact {
+	float: left;
+	position: relative;
+	width: 420px;
+	height: 605px;
+	background-color: white;
+	border: 1px solid #dddddd;	
+}
+input {
+	width: 358px;
+	height: 30px;
+	border:1px solid #cccccc;
+	margin-left: 20px;
+	position: relative;
+	top: -12px;
+}
+#title {
+	font-size: 25px;
+	color: #4aaaa5;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 6px;
+}
+/*begin of index*/
+#AboutMe {
+	float: left;
+	width: 418px;
+	height: 800px;
+	background-color: white;
+	border: 1px solid #dddddd;	
+}
+.article {
+	font-size: 14px;
+	color: grey;
+	line-height: 36px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#me {
+	width: 358px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+/*begin of portfolio*/
+#Portfolio {
+	float: left;
+	width: 410px;
+	height: 2050px;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+.education,
+.computer,
+.experience,
+.personality,
+.projects {
+	width: 353px;
+	height: auto;
+	position: relative;
+	left: 23px;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.personality {
+	position: relative;
+	left: 44px;
+}
+.computer {
+	position: relative;
+	left: 23px;
+}
+.Education {
+	width: 333px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 380px;
+}
+.Computer {
+	width: 333px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 760px;
+}
+.Experience {
+	width: 333px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 1155px;
+}
+.Personality {
+	width: 333px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 20px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	position: absolute;
+	top: 1545px;
+}
+.Projects {
+	width: 333px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 23px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 24px;
+	position: absolute;
+	top: 1907px;
+}
+	}
